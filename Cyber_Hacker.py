@@ -10,10 +10,11 @@ import queue
 import time
 import os
 import array
+import pygame
+
 
 # ---- Optional sound support -------------------------------------------------
 try:
-    import pygame
     pygame.mixer.init()
     SOUND_AVAILABLE = True
 except Exception:
